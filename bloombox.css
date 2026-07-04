@@ -3,9 +3,10 @@
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden;
     & > * + * {
-  margin-left: 10px;}}
+  margin-left: 10px;}
+    & > * {
+  min-width: 0;}}
 .row.features {
     display: flex;
     height: 300px;
@@ -15,11 +16,9 @@
     flex: 1; 
     display:flex;
     justify-content:center;
-    align-items:center;
-    min-width: 0;}
+    align-items:center;}
 .topbar.beta {
-    flex: 3;
-    min-width: 0;}
+    flex: 3;}
 .scroller {
     text-align: left;
     overflow: auto;
