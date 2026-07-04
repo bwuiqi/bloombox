@@ -1,7 +1,9 @@
 .row.fracont {
-    display: flex;
+    display: flex; 
+    width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
     & > * + * {
   margin-left: 10px;}}
 .row.features {
@@ -13,9 +15,11 @@
     flex: 1; 
     display:flex;
     justify-content:center;
-    align-items:center;}
+    align-items:center;
+    min-width: 0;}
 .topbar.beta {
-    flex: 3;}
+    flex: 3;
+    min-width: 0;}
 .scroller {
     text-align: left;
     overflow: auto;
