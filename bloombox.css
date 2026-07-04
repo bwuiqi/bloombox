@@ -1,13 +1,19 @@
 .row.fracont {
     display: flex;
-    gap: 10px;}
+    max-width: 100%;
+    box-sizing: border-box;
+    & > * + * {
+  margin-left: 10px;}}
 .row.features {
     display: flex;
     height: 300px;
     padding-top:10px; 
     width: 100%;}
 .topbar.alpha {
-    flex: 1; display:flex;justify-content:center;align-items:center;}
+    flex: 1; 
+    display:flex;
+    justify-content:center;
+    align-items:center;}
 .topbar.beta {
     flex: 3;}
 .scroller {
