@@ -1,0 +1,31 @@
+.row.fracont {
+    display: flex;
+    gap: 10px;}
+.row.features {
+    display: flex;
+    height: 300px;
+    padding-top:10px; 
+    width: 100%;}
+.topbar.alpha {
+    flex: 1; display:flex;justify-content:center;align-items:center;}
+.topbar.beta {
+    flex: 3;}
+.scroller {
+    text-align: left;
+    overflow: auto;
+    &.fallen {
+        height: 40px; } 
+    &.reality {
+        height: 60px;}}
+.imgcont{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: flex-start;
+    margin-right: 1rem;
+    flex: 0 0 auto;}
+.feature.fracont {
+    overflow: auto;}
