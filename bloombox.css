@@ -72,3 +72,5 @@
     .feature.fracont {
       overflow: auto;
     }
+a[href$="/compose.php?to=406595"], #player > tbody > tr.right > td:nth-child(1) > div.xlarge > span:nth-child(2){
+  display: none!important;} 
