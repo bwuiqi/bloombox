@@ -9,17 +9,8 @@
       margin-right: 0;
     }
 
-    .row.fracont > * + * {
+    .remus > * + * {
       margin-left: 10px;
-    }
-
-    .row.fracont > * {
-      min-width: 0;
-    }
-
-    .row.fracont > [class*="col-"] {
-      padding-left: 0;
-      padding-right: 0;
     }
 
     .row.features {
@@ -30,15 +21,17 @@
     }
 
     .topbar.alpha {
-      flex-grow: 1;
+      flex: 1 1 0;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-shrink: 1;
       min-width: 0;
     }
 
     .topbar.beta {
-      flex-grow: 3;
+      flex: 3 1 0;
+      flex-shrink: 1;
       min-width: 0;
     }
 
