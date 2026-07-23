@@ -21,18 +21,14 @@
     }
 
     .topbar.alpha {
-      flex: 1 1 0;
+      flex-grow: 1;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-shrink: 1;
-      min-width: 0;
     }
 
     .topbar.beta {
-      flex: 3 1 0;
-      flex-shrink: 1;
-      min-width: 0;
+      flex-grow: 3;
     }
 
     .scroller {
@@ -71,7 +67,7 @@ a[href$="/compose.php?to=406595"], a[href$="/compose.php?to=409926"], #player > 
 
 .remus {
   width: 100%; 
-  height: 60px;
+  height: 80px;
   display: flex; 
 } 
 .duo {
